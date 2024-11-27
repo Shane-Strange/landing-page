@@ -1,0 +1,1006 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+/*header*/
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 25px;
+  background-color: rgb(66, 148, 255);
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+#title {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+#reg-border {
+  padding-left: 15px;
+  border-left: 2px solid white;
+}
+
+/*main*/
+
+.main-heading {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.options-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.location {
+  color: white;
+  background-color: rgb(66, 148, 255);
+  height: 50px;
+  width: 300px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-in-check-out {
+  color: white;
+  background-color: rgb(66, 148, 255);
+  height: 50px;
+  width: 300px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.family-size-rooms {
+  color: white;
+  background-color: rgb(66, 148, 255);
+  height: 50px;
+  width: 300px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location select {
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  outline: none;
+  padding-left: 150px;
+}
+
+.check-in-check-out select {
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  outline: none;
+  padding-left: 50px;
+}
+
+.family-size-rooms select {
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  outline: none;
+  padding-left: 20px;
+}
+
+.location option {
+  background-color: rgb(66, 148, 255);
+}
+
+.check-in-check-out option {
+  background-color: rgb(66, 148, 255);
+}
+
+.family-size-rooms option {
+  background-color: rgb(66, 148, 255);
+}
+
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(66, 148, 255);
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: rgb(119, 178, 255);
+}
+
+/*offers*/
+
+.offers-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  color: black;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.offer1 {
+  background-color: white;
+  height: 250px;
+  width: 800px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+#offer1-img {
+  background-image: url('images/savings-img.jpg');
+  background-size: cover;
+  height: 230px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.offer1-description {
+  display: block;
+}
+
+#des1 {
+  font-size: 15px;
+  padding: 15px;
+  padding-left: 45px;
+  display: block;
+}
+
+#des2 {
+  font-size: 20px;
+  padding: 15px;
+  padding-left: 45px;
+  display: block;
+}
+
+.book-btn1 {
+  display: block;
+  align-items: center;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+
+.book-btn2 {
+  display: block;
+  align-items: center;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+
+.book-btn1 button {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(66, 148, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.book-btn2 button {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(66, 148, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.book-btn1 button:hover,
+.book-btn2 button:hover {
+  background-color: rgb(119, 178, 255);
+}
+
+.offer2 {
+  background-color: white;
+  height: 250px;
+  width: 800px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+#offer2-img {
+  background-image: url('images/savings-hotel.jpg');
+  background-size: cover;
+  height: 230px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.offer2-description {
+  display: block;
+}
+
+#des4 {
+  font-size: 15px;
+  padding: 15px;
+  padding-left: 45px;
+  display: block;
+}
+
+#des5 {
+  font-size: 20px;
+  padding: 15px;
+  padding-left: 45px;
+  display: block;
+}
+
+/*property type section*/
+
+.browse-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+  color: black;
+}
+
+.housing {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.housing div {
+  border: none;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#hotel {
+  background-image: url('Images/hotel.avif');
+  background-size: cover;
+}
+
+#apartment {
+  background-image: url('Images/apartment.webp');
+  background-size: cover;
+}
+
+#resort {
+  background-image: url('Images/resort.jpg');
+  background-size: cover;
+}
+
+#villa {
+  background-image: url('Images/villa.jpg');
+  background-size: cover;
+}
+/*travel expert section*/
+
+.travel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 200px;
+}
+
+.travel-expert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 1600px;
+  height: 400px;
+  border-radius: 25px;
+  background-image: url('Images/map.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.travel-expert h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+  border-right: 2px solid white;
+}
+
+.travel-expert p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+}
+
+/*connect section*/
+
+.cnct-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.connect-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 0px;
+  padding: 100px;
+}
+
+#cnct1-img {
+  border-radius: 15px;
+  height: 170px;
+  width: 280px;
+  background-image: url('Images/taj-mahal.jpg');
+  background-size: cover;
+}
+
+#cnct2-img {
+  border-radius: 15px;
+  height: 170px;
+  width: 280px;
+  background-image: url('Images/bonfire.jpg');
+  background-size: cover;
+}
+
+#cnct3-img {
+  border-radius: 15px;
+  height: 170px;
+  width: 280px;
+  background-image: url('Images/beach-swing.avif');
+  background-size: cover;
+}
+
+#cnct4-img {
+  border-radius: 15px;
+  height: 170px;
+  width: 280px;
+  background-image: url('Images/woman-in-mountains.jpg');
+  background-size: cover;
+}
+
+#cnct1 {
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  display: block;
+  justify-content: start;
+  align-items: end;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cnct2 {
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  display: block;
+  justify-content: start;
+  align-items: end;
+  font-size: 20px;
+
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cnct3 {
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  display: block;
+  justify-content: start;
+  align-items: end;
+  font-size: 20px;
+
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cnct4 {
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  display: block;
+  justify-content: start;
+  align-items: end;
+  font-size: 20px;
+
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*footer section*/
+
+.footer {
+  height: 550px;
+  width: 100%;
+  color: white;
+  background-color: rgb(14, 14, 14);
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  gap: 150px;
+}
+
+.ggl-play {
+  display: flex;
+  height: 75px;
+  width: 250px;
+  background-image: url('Images/google-play.png');
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.app-store {
+  display: flex;
+  height: 75px;
+  width: 250px;
+  background-image: url('Images/app-store.jpg');
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.notes {
+  padding: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ftr-notes1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  cursor: pointer;
+}
+
+.ftr-notes2 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  cursor: pointer;
+}
+
+.ftr-notes3 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  cursor: pointer;
+}
+
+.ftr-notes4 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  cursor: pointer;
+}
+
+.notes1 {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-btn {
+  height: 50px;
+  width: 200px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social1 {
+  height: 50px;
+  width: 50px;
+  background-image: url('images/icons8-facebook-50\ \(1\).png');
+  z-index: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.social2 {
+  height: 50px;
+  width: 50px;
+  background-image: url('images/icons8-instagram-50.png');
+  z-index: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.social3 {
+  height: 50px;
+  width: 50px;
+  background-image: url('images/icons8-twitter-50.png');
+  z-index: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.social4 {
+  height: 50px;
+  width: 50px;
+  background-image: url('images/icons8-linkedin-50.png');
+  z-index: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 625px) {
+  body {
+    background-color: white;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: rgb(0, 88, 202);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  #reg-border {
+    border-left: 0;
+  }
+
+  .main-heading {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .options-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .offers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .offer1 {
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+  }
+
+  #offer1-img {
+    display: none;
+    background-image: url('images/savings-img.jpg');
+    background-size: cover;
+    height: 230px;
+    width: 350px;
+    border-radius: 15px;
+  }
+
+  .offer2 {
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+  }
+
+  #offer2-img {
+    display: none;
+    background-image: url('images/savings-hotel.jpg');
+    background-size: cover;
+    height: 230px;
+    width: 350px;
+    border-radius: 15px;
+  }
+
+  .travel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .travel-expert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 1600px;
+    height: 400px;
+    border-radius: 25px;
+    background-image: url('Images/map.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  .travel-expert h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 50px;
+    border-right: 0;
+  }
+
+  .travel-expert h1 br {
+    display: none;
+  }
+
+  .travel-expert p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 50px;
+  }
+
+  .cnct-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    gap: 25px;
+  }
+
+  .connect-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .connect-subtitle br {
+    display: none;
+  }
+
+  .footer {
+    height: 650px;
+    width: 100%;
+    color: white;
+    background-color: rgb(14, 14, 14);
+  }
+
+  .btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .ggl-play {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    width: 250px;
+    background-image: url('Images/google-play.png');
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .app-store {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    width: 250px;
+    background-image: url('Images/app-store.jpg');
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .notes {
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .ftr-notes1 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .ftr-notes2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .ftr-notes3 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .ftr-notes4 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .notes1 {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .service-btn {
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social1 {
+    height: 50px;
+    width: 50px;
+    background-image: url('images/icons8-facebook-50\ \(1\).png');
+    z-index: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .social2 {
+    height: 50px;
+    width: 50px;
+    background-image: url('images/icons8-instagram-50.png');
+    z-index: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .social3 {
+    height: 50px;
+    width: 50px;
+    background-image: url('images/icons8-twitter-50.png');
+    z-index: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .social4 {
+    height: 50px;
+    width: 50px;
+    background-image: url('images/icons8-linkedin-50.png');
+    z-index: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
